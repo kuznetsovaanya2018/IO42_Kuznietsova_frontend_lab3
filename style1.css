@@ -1,0 +1,28 @@
+.container{
+    background: #cc9999;
+    width: 600px;
+    height: 600px;
+}
+
+.text_left{
+    float:left;
+    background-color: #99CC99;
+    width: 50%;
+    height: 300px;
+}
+.text_right{
+    float:right;
+    background-color: #6777ed;
+    width: 50%;
+    height: 300px;
+}
+
+.img img {
+    max-width: 100%; /* Картинка не стане ширшою за свій блок .img */
+    height: auto;    /* Зберігаються пропорції */
+    display: block;  /* Прибирає зайвий відступ знизу */
+}
+
+.img2{
+    clear: both;
+}
